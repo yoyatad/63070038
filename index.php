@@ -1,13 +1,15 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>YOYATAD Group</title>
+    <title>นาย ชุติพนธ์ พรหมวิจิตร</title>
   </head>
   <body>
     <h1>My First Heading</h1>
-    <p>MY First Paragraph</p>p>
+
     <img src="cat.jpg">
     <br>
-    <a href="http://www.it.kmitl.ac.th">This is a Link</a>
+    <a href="https://www.facebook.com/groups/634791290746287/">This is a Link</a>
 
     <h2>The unordered list</h2>
     <ul>
