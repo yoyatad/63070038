@@ -8,7 +8,7 @@
     <h1>My First Heading</h1>
 
     <img src="cat.jpg">
-    <img src="cat.jpg">
+    <img src="1-83.jpg">
     <br>
     <a href="https://www.facebook.com/groups/634791290746287/">This is a Link</a>
 
