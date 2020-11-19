@@ -1,46 +1,61 @@
 <?php
-	$conn = mysqli_init();
-	mysqli_real_connect($conn, 'yoyatad.mysql.database.azure.com', 'yoyatad123@yoyatad', 'Ex1fck56', 'ITFLab', 3306);
-	if(mysqli_connect_errno($conn)) {
-		die('Failed to connect to MySQL: '.mysqli_connect_error());
-	}
-	$name = $_POST['name'];
-	$comment = $_POST['comment'];
-	$link = $_POST['link'];
-	$sql = "INSERT INTO guestbooks (Name, Comment, Link) VALUES ('$name', '$comment', '$link')";
+
+$conn = mysqli_init();
+mysqli_real_connect($conn, 'bergbase.mysql.database.azure.com', 'bergbase@bergbase', 'Natapon45', 'itflab', 3306);
+if (mysqli_connect_errno($conn))
+{
+    die('Failed to connect to MySQL: '.mysqli_connect_error());
+}
+
+
+$name = $_POST['name'];
+$comment = $_POST['comment'];
+$link = $_POST['link'];
+
+
+$sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment', '$link')";
+
+
+if (mysqli_query($conn, $sql)) {
+  } else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+  }
+mysqli_close($conn);
 ?>
-<!DOCTYPE html>
+<?php
+include 'yee.php';
+?>
 <html>
 <head>
-	<title>ยืนยันการเพิ่มข้อมูล</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>>
+<style>
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
 </head>
-<body class="bg-light py-5">
-	<div class="container text-dark">
-		<div class="row">
-			<div class="col-12 col-lg-8 offset-lg-2">
-				<div class="card shadow">
-					<div class="card-body">
-						<h2 align="center">
-						<?php
-							if(mysqli_query($conn, $sql)) {
-								echo "บันทึกข้อมูลเสร็จสิ้น";
-							}
-							else {
-								echo "บันทึกข้อมูลล้มเหลว";
-							}
-						?>
-						</h2>
-						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-sm btn-warning">BACK</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <body>
+  <div class="container">
+    <div class="center">
+      <p>คุณกรอกข้อมูลสำเร็จแล้ว โปรดกดที่ปุ่มสีฟ้าเพื่อกลับสู่หน้าหลัก</p>
+      <br></br>
+        <div class="center">
+          <br></br>
+          <td><a href="index.php">
+              <button type="submit" class="btn btn-primary">กลับ
+                </button></td>
+</div>
+</div>
+</div>
 </body>
 </html>
