@@ -54,11 +54,10 @@
 						<?php
 							mysqli_close($conn);
 						?>
-					<div class="container">
-						<div class="col-12 col-lg-8 offset-lg-2">
-							<h2 align="center">
-								<div class="col-6"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
-							</h2>
+		<div class="container">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<h2 align="center">
+					<div class="col-6"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
 					</div>
 				</div>
 			</div>
