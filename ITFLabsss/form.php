@@ -42,16 +42,12 @@
 					</h2>
 				</form>
 	<div class="container">
-		<div class="card shadow">
 			<div class="col-12 col-lg-8 offset-lg-2">
-				<div class="card-body">
-					<h2 align="center">
-						<a href="index.php">
-    					<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก</button>
+				<h2 align="center">
+					<a href="index.php">
+    				<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก</button>
 </body>
 </html>
-</div>
-</div>
 </div>
 </div>
 </div>
