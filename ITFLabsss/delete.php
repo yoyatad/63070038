@@ -15,12 +15,11 @@
 		}
 	</style>
 </head>
-<body class="bg-light py-5">
+<body>
 	<div class="container text-dark">
-		<div class="row">
-			<div class="col-12 col-lg-8 offset-lg-2">
-				<div class="card shadow">
-					<div class="card-body">
+		<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="card shadow">
+				<div class="card-body">
 						<h2 align="center">
 						<?php
 							if(mysqli_query($conn, $sql)) {
@@ -31,8 +30,7 @@
 							}
 						?>
 						</h2>
-						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-sm btn-warning">BACK</a></p>
-					</div>
+						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-primary">กลับสู่หน้าหลัก</a></p>
 				</div>
 			</div>
 		</div>
