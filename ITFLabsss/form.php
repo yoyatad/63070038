@@ -45,7 +45,7 @@
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-primary">!!!ส่งแบบฟอร์ม คลิกที่นี่!!!</button>
-								<a type="submit" class="btn btn-primary" href="index.php">ยกเลิก</a>
+								<a class="btn btn-sm btn-light my-3" class="btn btn-primary" href="index.php">ยกเลิก</a>
 							</div>
 						</form>
 					</div>
