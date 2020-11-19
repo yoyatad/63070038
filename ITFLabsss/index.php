@@ -56,7 +56,9 @@
 						?>
 					<div class="container text-dark">
 						<div class="col-12 col-lg-8 offset-lg-2">
-							<div class="col-6 text-right"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
+							<h2 align="center">
+								<div class="col-6 text-right"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
+							</h2>
 					</div>
 				</div>
 			</div>
