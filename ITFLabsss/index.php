@@ -28,7 +28,7 @@
 							}
 							$res = mysqli_query($conn, 'SELECT * FROM guestbooks');
 						?>
-						<table class="table table-borderless table-hover">
+						<table class="table table-borderless table-striped">
 							<thead>
 								<tr>
 									<th>ชื่อ</th>
