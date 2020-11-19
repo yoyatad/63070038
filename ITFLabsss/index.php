@@ -16,7 +16,6 @@
 				<div class="card-body">
 					<div class="row">
 						<div class="col-6"><h2 class="text-monospace">ข้อมูลของท่านผู้เจริญ</h2></div>
-						<div class="col-6 text-right"><a href="form.php" class="btn btn-warning">เพิ่มรายชื่อ</a></div>
 					</div>
 					<div class="table-responsive">
 						<?php
@@ -28,7 +27,7 @@
 							}
 							$res = mysqli_query($conn, 'SELECT * FROM guestbooks');
 						?>
-						<table class="table table-borderless table-striped">
+						<table class="table table-dark table-striped">
 							<thead>
 								<tr>
 									<th>ชื่อ</th>
@@ -37,6 +36,9 @@
 									<th width="150px">จัดการ</th>
 								</tr>
 							</thead>
+							<div class="container text-dark">
+								<div class="col-12 col-lg-8 offset-lg-2">
+									<div class="col-6 text-right"><a href="form.php" class="btn btn-default">เพิ่มรายชื่อ</a></div>
 							<tbody>
 								<?php
 									while($Result = mysqli_fetch_array($res)) {
@@ -60,5 +62,7 @@
 			</div>
 		</div>
 	</div>
+								</div>
+								</div>
 </body>
 </html>
