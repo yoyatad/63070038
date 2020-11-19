@@ -51,8 +51,8 @@ include 'yee.php';
       <br></br>
     <div class="center">
         <br></br>
-	<a href="index.php">
-    <button type="submit" class="btn btn-primary">ไปที่หน้าหลัก</button>
+		<a href="index.php">
+		<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก</button>
 </div>
 </div>
 </div>
