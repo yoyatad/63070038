@@ -34,12 +34,11 @@
       <div class="invalid-feedback">มองข้ามหนูทำไมมมมT_T</div>
     </div>
     <button type="submit" class="btn btn-primary">!!!ส่งแบบฟอร์ม คลิกที่นี่!!!</button>
-    <a type="submit" class="btn btn-primary" href="index.php">ยกเลิก</a>
-    <br></br>
-  </form>
-  <a href="show.php">
+	<a href="index.php">
     <button type="submit" class="btn btn-primary">ไปที่หน้าหลัก
       </button>
+    <br></br>
+  </form>
 </body>
 </html>
 </div>
