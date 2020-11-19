@@ -27,8 +27,8 @@
 							}
 							$res = mysqli_query($conn, 'SELECT * FROM guestbooks');
 						?>
-						<table class="table table-dark table-striped">
-							<thead>
+						<table class="table table-bordorless table-striped">
+							<thead class="thead-light">
 								<tr>
 									<th>ชื่อ</th>
 									<th>คำอธิบาย</th>
@@ -57,7 +57,7 @@
 		<div class="container">
 			<div class="col-12 col-lg-8 offset-lg-2">
 				<h2 align="center">
-					<div class="col-6"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
+					<a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a>
 					</div>
 				</div>
 			</div>
