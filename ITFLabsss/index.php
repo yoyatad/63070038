@@ -36,9 +36,6 @@
 									<th width="150px">จัดการ</th>
 								</tr>
 							</thead>
-							<div class="container text-dark">
-								<div class="col-12 col-lg-8 offset-lg-2">
-									<div class="col-6 text-right"><a href="form.php" class="btn btn-default">เพิ่มรายชื่อ</a></div>
 							<tbody>
 								<?php
 									while($Result = mysqli_fetch_array($res)) {
@@ -57,12 +54,15 @@
 						<?php
 							mysqli_close($conn);
 						?>
+					<div class="container text-dark">
+						<div class="col-12 col-lg-8 offset-lg-2">
+							<div class="col-6 text-right"><a href="form.php" class="btn btn-info">เพิ่มรายชื่อ</a></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-								</div>
-								</div>
+</div>
+</div>
 </body>
 </html>
