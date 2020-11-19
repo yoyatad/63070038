@@ -34,7 +34,7 @@
       <div class="invalid-feedback">มองข้ามหนูทำไมมมมT_T</div>
     </div>
     <button type="submit" class="btn btn-primary">!!!ส่งแบบฟอร์ม คลิกที่นี่!!!</button>
-    <a class="btn btn-sm btn-light my-3" href="index.php">CANCLE</a>
+    <a type="submit" class="btn btn-primary" href="index.php">ยกเลิก</a>
     <br></br>
   </form>
   <a href="show.php">
