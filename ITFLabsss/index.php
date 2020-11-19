@@ -16,6 +16,7 @@
 				<div class="card-body">
 					<div class="row">
 						<div class="col-6"><h2 class="text-monospace">ข้อมูลของท่านผู้เจริญ</h2></div>
+						<br></br>
 					</div>
 					<div class="table-responsive">
 						<?php
