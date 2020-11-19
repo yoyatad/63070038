@@ -11,10 +11,10 @@
 </head>
 <body>
 	<style>
-		p.a {
+		{
 		font-family: "fc_iconicregular";
 		font-family: 'fc_iconicbold';
-		}
+	}
 	</style>
 <div class="container">
 	<div class="card shadow">
