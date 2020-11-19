@@ -37,13 +37,21 @@
 					<div class="invalid-feedback">มองข้ามหนูทำไมมมมT_T</div>
 					</div>
 					<button type="submit" class="btn btn-primary">!!!ส่งแบบฟอร์ม คลิกที่นี่!!!</button>
-					<a href="index.php">
-					<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก
-					</button>
 					<br></br>
 				</form>
+	<div class="container">
+		<div class="card shadow">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<div class="card-body">
+					<h2 align="center">
+						<a href="show.php">
+    						<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก</button>
 </body>
 </html>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
