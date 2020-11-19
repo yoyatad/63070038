@@ -39,7 +39,7 @@
 						</div>
 						<div class="form-group">
 							<label>คำอธิบาย</label>
-							<input type="text" name="comment" class="form-control" placeholder=">>>เขียนมาเถอะไม่ต้องคิดมาก>>>" required><?php echo $data['Comment']; ?>
+							<textarea name="comment" class="form-control" rows="5" placeholder=">>>เขียนมาเถอะไม่ต้องคิดมาก>>>" required><?php echo $data['Comment']; ?></textarea>
 						</div>
 						<div class="form-group">
 							<label>ที่อยู่เว็บไซต์</label>
