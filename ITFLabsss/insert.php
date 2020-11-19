@@ -47,12 +47,13 @@ include 'yee.php';
   <body>
   <div class="container">
     <div class="center">
-      <p>คุณกรอกข้อมูลสำเร็จแล้ว โปรดกดที่ปุ่มสีฟ้าเพื่อกลับสู่หน้าหลัก</p>
+      <h1>คุณกรอกข้อมูลสำเร็จแล้ว โปรดกดที่ปุ่มสีฟ้าเพื่อกลับสู่หน้าหลัก</h1>
       <br></br>
         <div class="center">
           <br></br>
-          <td><a href="index.php">
-              <button type="submit" class="btn btn-primary">กลับ</button></td>
+		<a href="index.php">
+    	<button type="submit" class="btn btn-primary">ไปที่หน้าหลัก
+      </button>
 </div>
 </div>
 </div>
