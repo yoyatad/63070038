@@ -9,13 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
-	<style>
-		{
-		font-family: "fc_iconicregular";
-		font-family: 'fc_iconicbold';
-	}
-	</style>
+<body class="bg-dark">
 <div class="container">
 	<div class="card shadow">
 		<div class="col-12 col-lg-8 offset-lg-2">

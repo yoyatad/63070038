@@ -20,7 +20,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>>
 </head>
-<body>
+<body class="bg-dark">
 	<div class="container text-dark">
 		<div class="col-12 col-lg-8 offset-lg-2">
 			<div class="card shadow">
@@ -35,7 +35,7 @@
 						}
 					?>
 					</h2>
-					<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-info">กลับสู่หน้าหลัก</a></p>
+						<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-info">กลับสู่หน้าหลัก</a></p>
 				</div>
 			</div>
 		</div>
