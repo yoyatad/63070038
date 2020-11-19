@@ -35,7 +35,7 @@
 						}
 					?>
 					</h2>
-					<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-primary">กลับสู่หน้าหลัก</a></p>
+					<p align="center" class="mt-4 mb-0"><a href="index.php" class="btn btn-info">กลับสู่หน้าหลัก</a></p>
 				</div>
 			</div>
 		</div>
