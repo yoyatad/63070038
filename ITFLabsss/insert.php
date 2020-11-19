@@ -52,8 +52,7 @@ include 'yee.php';
         <div class="center">
           <br></br>
           <td><a href="index.php">
-              <button type="submit" class="btn btn-primary">กลับ
-                </button></td>
+              <button type="submit" class="btn btn-primary">กลับ</button></td>
 </div>
 </div>
 </div>
