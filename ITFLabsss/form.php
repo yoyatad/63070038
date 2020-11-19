@@ -22,7 +22,7 @@
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-monospace">Form</h1></div>
+							<div class="col-6"><h1 class="text-monospace">กรอกข้อมูล</h1></div>
 						</div>
 						<form action = "insert.php" action="/action_page.php" method = "post" id="CommentForm" class="was-validated">
 							<div class="form-group">
@@ -45,7 +45,7 @@
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-primary">!!!ส่งแบบฟอร์ม คลิกที่นี่!!!</button>
-								<a class="btn btn-sm btn-light my-3" href="index.php">ยกเลิก</a>
+								<a type="submit" class="btn btn-primary" href="index.php">ยกเลิก</a>
 							</div>
 						</form>
 					</div>
