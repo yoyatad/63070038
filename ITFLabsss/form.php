@@ -9,12 +9,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-	<style type="text/css">
-		.card {
-			border-top: solid 5px #ffc107;
-		}
-	</style>
-</head>
 <body class="bg-light py-5">
 	<div class="container text-dark">
 		<div class="row">
